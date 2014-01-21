@@ -14,7 +14,7 @@
 		000CD17D188E39480077D9BB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 000CD17C188E39480077D9BB /* main.m */; };
 		000CD181188E39480077D9BB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 000CD180188E39480077D9BB /* AppDelegate.m */; };
 		000CD184188E39480077D9BB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 000CD182188E39480077D9BB /* Main.storyboard */; };
-		000CD187188E39480077D9BB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 000CD186188E39480077D9BB /* ViewController.m */; };
+		000CD187188E39480077D9BB /* ProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 000CD186188E39480077D9BB /* ProfileViewController.m */; };
 		000CD189188E39480077D9BB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 000CD188188E39480077D9BB /* Images.xcassets */; };
 		000CD190188E39480077D9BB /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 000CD18F188E39480077D9BB /* XCTest.framework */; };
 		000CD191188E39480077D9BB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 000CD170188E39480077D9BB /* Foundation.framework */; };
@@ -45,8 +45,8 @@
 		000CD17F188E39480077D9BB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		000CD180188E39480077D9BB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		000CD183188E39480077D9BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		000CD185188E39480077D9BB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		000CD186188E39480077D9BB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		000CD185188E39480077D9BB /* ProfileViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProfileViewController.h; sourceTree = "<group>"; };
+		000CD186188E39480077D9BB /* ProfileViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProfileViewController.m; sourceTree = "<group>"; };
 		000CD188188E39480077D9BB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		000CD18E188E39480077D9BB /* ProfileViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProfileViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		000CD18F188E39480077D9BB /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -115,8 +115,8 @@
 				000CD17F188E39480077D9BB /* AppDelegate.h */,
 				000CD180188E39480077D9BB /* AppDelegate.m */,
 				000CD182188E39480077D9BB /* Main.storyboard */,
-				000CD185188E39480077D9BB /* ViewController.h */,
-				000CD186188E39480077D9BB /* ViewController.m */,
+				000CD185188E39480077D9BB /* ProfileViewController.h */,
+				000CD186188E39480077D9BB /* ProfileViewController.m */,
 				000CD188188E39480077D9BB /* Images.xcassets */,
 				000CD177188E39480077D9BB /* Supporting Files */,
 			);
@@ -249,7 +249,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				000CD187188E39480077D9BB /* ViewController.m in Sources */,
+				000CD187188E39480077D9BB /* ProfileViewController.m in Sources */,
 				000CD181188E39480077D9BB /* AppDelegate.m in Sources */,
 				000CD17D188E39480077D9BB /* main.m in Sources */,
 			);
